@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Insurance Agent</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-digimedia-v3.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+<!--
+
+TemplateMo 568 DigiMedia
+
+https://templatemo.com/tm-568-digimedia
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- Pre-header Starts -->
+  <div class="pre-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8 col-7">
+          <ul class="info">
+            <li><a href="#"><i class="fa fa-envelope"></i>demo@gmail.com</a></li>
+            <li><a href="#"><i class="fa fa-phone"></i>010-020-0340</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-4 col-5">
+          <ul class="social-media">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Pre-header End -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <!-- <a href="index.html" class="logo">
+              <img src="assets/images/logo-v3.png" alt="">
+            </a> -->
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <!-- <li class="scroll-to-section  "><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#about">About</a></li>
+              <li class="scroll-to-section"><a href="#services">Services</a></li>
+              <li class="scroll-to-section"><a href="calculators.html">Calculator's</a></li>
+              <li class="scroll-to-section"><a href="#blog">Gallery</a></li>
+              <li class="scroll-to-section"><a href="#contact">Contact</a></li>  -->
+              <li class="scroll-to-section"><div class="border-first-button"><a href="index.html">Home</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+ 
+  <section class="bglight padding" id="section-pricing"   style="margin-top: 100px;">
+    <div class="container">
+        
+        <div class="row wow fadeIn">
+           <div class="heading-area my-5 text-center w-100">
+               <!-- <h6 class="sub-title">Basic info about componay</h6> -->
+               <h2 class="title m-0">EMI CALCULATORS</h2>
+          </div>
+       </div>
+   </div>
+
+   <div class="calculator-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 1200px; width: 90%; margin-top: 20px;"><!-- Future Value Calculator -->
+       <div class="calculator" style="width: 100%; max-width: 500px; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); box-sizing: border-box;">
+       <h1 style="text-align: center; margin-bottom: 20px; color: #333;">Future value calculator</h1>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="present-amount-future" style="display: block; margin-bottom: 5px; color: #555;">Present amount (₹)</label> <input type="number" id="present-amount-future" value="0" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"></div>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="interest-rate-future" style="display: block; margin-bottom: 5px; color: #555;">Manual rate(%)</label> <input type="number" id="interest-rate-future" value="10" style="width: calc(100% - 20px); padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"></div>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="loan-period-future" style="display: block; margin-bottom: 5px; color: #555;">No. of years to receive amount</label> <input type="number" id="loan-period-future" value="10" style="width: calc(100% - 20px); padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"></div>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="rest-option-future" style="display: block; margin-bottom: 5px; color: #555;">Compounding mode</label><select id="rest-option-future" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
+       <option value="monthly">Annually</option>
+       <option value="yearly">Yearly</option>
+       <option value="monthly">Half-Yearly</option>
+       <option value="yearly">Quarterly</option>
+       <option value="yearly">Monthly</option>
+       <option value="monthly">15 Days</option>
+       <option value="yearly">7 Days</option>
+       <option value="yearly">Daily</option>
+       </select></div>
+       <button class="btn" onclick="calculateFutureValue()" style="width: 100%; padding: 12px; color: #fff; background-color: #FFBF00; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-top: 10px;">Calculate Future Value</button> <!-- Clear button for Future Value Calculator --> <button class="btn" onclick="clearFields(3)" style="width: 100%; padding: 12px; color: #fff; background-color: black; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-top: 10px;">Clear</button>
+       <div id="result-future" class="result" style="margin-top: 20px; padding: 15px; background-color: #f0f8ff; border: 1px solid #cce7ff; border-radius: 5px; text-align: center; font-size: 18px; color: #333;"></div>
+       </div>
+       <!-- Fixed Deposit Calculator -->
+       <div class="calculator" style="width: 100%; max-width: 500px; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); box-sizing: border-box;">
+       <h1 style="text-align: center; margin-bottom: 20px; color: #333;">Fixed deposit calculator</h1>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="principal-amount" style="display: block; margin-bottom: 5px; color: #555;">Principal amount (₹)</label> <input type="number" id="principal-amount" value="100000" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"></div>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="interest-rate-2" style="display: block; margin-bottom: 5px; color: #555;">Manual rate (%)</label> <input type="number" id="interest-rate-2" value="10" style="width: calc(100% - 20px); padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"></div>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="compounding-option" style="display: block; margin-bottom: 5px; color: #555;">Interest compounding</label><select id="compounding-option" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
+       <option value="monthly">Annually</option>
+       <option value="yearly">Yearly</option>
+       <option value="monthly">Half-Yearly</option>
+       <option value="yearly">Quarterly</option>
+       <option value="yearly">Monthly</option>
+       <option value="monthly">15 Days</option>
+       <option value="yearly">7 Days</option>
+       <option value="yearly">Daily</option>
+       </select></div>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="loan-period-2" style="display: block; margin-bottom: 5px; color: #555;">Loan period (months)</label> <input type="number" id="loan-period-2" value="12" style="width: calc(100% - 20px); padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"></div>
+       <button class="btn" onclick="calculateFD()" style="width: 100%; padding: 12px; color: #fff; background-color: #FFBF00; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-top: 10px;">Calculate interest</button> <!-- Clear button for Fixed Deposit Calculator --> <button class="btn" onclick="clearFields(2)" style="width: 100%; padding: 12px; color: #fff; background-color: black; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-top: 10px;">Clear</button>
+       <div id="result-2" class="result" style="margin-top: 20px; padding: 15px; background-color: #f0f8ff; border: 1px solid #cce7ff; border-radius: 5px; text-align: center; font-size: 18px; color: #333;"></div>
+       </div>
+       <!-- Present Value Calculator -->
+       <div class="calculator" style="width: 100%; max-width: 500px; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); box-sizing: border-box;">
+       <h1 style="text-align: center; margin-bottom: 20px; color: #333;">Present value  <br> calculator</h1>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="interest-rate-3" style="display: block; margin-bottom: 5px; color: #555;">Manual Rate(%)</label> <input type="number" id="interest-rate-3" value="10" style="width: calc(100% - 20px); padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"></div>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="loan-period-3" style="display: block; margin-bottom: 5px; color: #555;">No. of years to receive amount</label> <input type="number" id="loan-period-3" value="10" style="width: calc(100% - 20px); padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"></div>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="rest-option-3" style="display: block; margin-bottom: 5px; color: #555;">Compounding mode</label><select id="rest-option-3" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
+       <option value="monthly">Annually</option>
+       <option value="yearly">Yearly</option>
+       <option value="monthly">Half-Yearly</option>
+       <option value="yearly">Quarterly</option>
+       <option value="yearly">Monthly</option>
+       <option value="monthly">15 Days</option>
+       <option value="yearly">7 Days</option>
+       <option value="yearly">Daily</option>
+       </select></div>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="future-amount" style="display: block; margin-bottom: 5px; color: #555;">Future amount (₹)</label> <input type="number" id="future-amount" value="0" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"></div>
+       <button class="btn" onclick="calculatePresentValue()" style="width: 100%; padding: 12px; color: #fff; background-color: #FFBF00; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-top: 10px;">Calculate present value</button> <!-- Clear button for Present Value Calculator --> <button class="btn" onclick="clearFields(1)" style="width: 100%; padding: 12px; color: #fff; background-color: black; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-top: 10px;">Clear</button>
+       <div id="result-3" class="result" style="margin-top: 20px; padding: 15px; background-color: #f0f8ff; border: 1px solid #cce7ff; border-radius: 5px; text-align: center; font-size: 18px; color: #333;"></div>
+       </div>
+       <!-- Recurring Deposit Calculator -->
+       <div class="calculator" style="width: 100%; max-width: 500px; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); box-sizing: border-box;">
+       <h1 style="text-align: center; margin-bottom: 20px; color: #333;">Recurring deposit calculator</h1>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="monthly-deposit" style="display: block; margin-bottom: 5px; color: #555;">Monthly deposit (₹)</label> <input type="number" id="monthly-deposit" value="5000" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"></div>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="annual-interest-rate" style="display: block; margin-bottom: 5px; color: #555;">Manual rate (%)</label> <input type="number" id="annual-interest-rate" value="8" style="width: calc(100% - 20px); padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"></div>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="compounding-frequency" style="display: block; margin-bottom: 5px; color: #555;">Compounding frequency</label><select id="compounding-frequency" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
+       <option value="monthly">Annually</option>
+       <option value="yearly">Yearly</option>
+       <option value="monthly">Half-Yearly</option>
+       <option value="yearly">Quarterly</option>
+       <option value="yearly">Monthly</option>
+       <option value="monthly">15 Days</option>
+       <option value="yearly">7 Days</option>
+       <option value="yearly">Daily</option>
+       </select></div>
+       <div class="form-group" style="margin-bottom: 15px;"><label for="period-months" style="display: block; margin-bottom: 5px; color: #555;">Period (months)</label> <input type="number" id="period-months" value="60" style="width: calc(100% - 20px); padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"></div>
+       <button class="btn" onclick="calculateRecurringDeposit()" style="width: 100%; padding: 12px; color: #fff; background-color: #FFBF00; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-top: 10px;">Calculate maturity value</button> <!-- Clear button for Recurring Deposit Calculator --> <button class="btn" onclick="clearFields(4)" style="width: 100%; padding: 12px; color: #fff; background-color: black; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-top: 10px;">Clear</button>
+       <div id="result-4" class="result" style="margin-top: 20px; padding: 15px; background-color: #f0f8ff; border: 1px solid #cce7ff; border-radius: 5px; text-align: center; font-size: 18px; color: #333;"></div>
+       </div>
+       </div>
+</section>
+
+<script>
+    function formatNumberWithCommas(number) {
+return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+// Function to calculate Future Value
+function calculateFutureValue() {
+// Retrieve inputs
+var presentAmount = parseFloat(document.getElementById('present-amount-future').value);
+var interestRate = parseFloat(document.getElementById('interest-rate-future').value);
+var years = parseFloat(document.getElementById('loan-period-future').value);
+var compoundingMode = document.getElementById('rest-option-future').value;
+
+// Perform calculation based on compounding mode
+var periodsPerYear = compoundingMode === 'monthly' ? 12 : 1;
+var interestPerPeriod = interestRate / (100 * periodsPerYear);
+var periods = years * periodsPerYear;
+
+var futureValue = presentAmount * Math.pow(1 + interestPerPeriod, periods);
+
+// Display result with commas
+document.getElementById('result-future').innerText = 'Future Value: ₹ ' + formatNumberWithCommas(futureValue.toFixed(2));
+}
+
+// Function to calculate Fixed Deposit Interest
+function calculateFD() {
+// Retrieve inputs
+var principalAmount = parseFloat(document.getElementById('principal-amount').value);
+var interestRate = parseFloat(document.getElementById('interest-rate-2').value);
+var compoundingOption = document.getElementById('compounding-option').value;
+var months = parseFloat(document.getElementById('loan-period-2').value);
+
+// Perform calculation based on compounding option
+var periodsPerYear = compoundingOption === 'monthly' ? 12 : (compoundingOption === 'quarterly' ? 4 : (compoundingOption === 'half-yearly' ? 2 : 1));
+var interestPerPeriod = interestRate / (100 * periodsPerYear);
+var periods = months / 12 * periodsPerYear;
+
+var maturityAmount = principalAmount * Math.pow(1 + interestPerPeriod, periods);
+
+// Display result with commas
+document.getElementById('result-2').innerText = 'Maturity Amount: ₹ ' + formatNumberWithCommas(maturityAmount.toFixed(2));
+}
+
+// Function to calculate Present Value
+function calculatePresentValue() {
+// Retrieve inputs
+var interestRate = parseFloat(document.getElementById('interest-rate-3').value);
+var years = parseFloat(document.getElementById('loan-period-3').value);
+var compoundingMode = document.getElementById('rest-option-3').value;
+var futureAmount = parseFloat(document.getElementById('future-amount').value);
+
+// Perform calculation based on compounding mode
+var periodsPerYear = compoundingMode === 'monthly' ? 12 : 1;
+var interestPerPeriod = interestRate / (100 * periodsPerYear);
+var periods = years * periodsPerYear;
+
+var presentValue = futureAmount / Math.pow(1 + interestPerPeriod, periods);
+
+// Display result with commas
+document.getElementById('result-3').innerText = 'Present Value: ₹ ' + formatNumberWithCommas(presentValue.toFixed(2));
+}
+
+// Function to calculate Recurring Deposit Maturity Value
+function calculateRecurringDeposit() {
+// Retrieve inputs
+var monthlyDeposit = parseFloat(document.getElementById('monthly-deposit').value);
+var annualInterestRate = parseFloat(document.getElementById('annual-interest-rate').value);
+var compoundingFrequency = document.getElementById('compounding-frequency').value;
+var months = parseFloat(document.getElementById('period-months').value);
+
+// Perform calculation based on compounding frequency
+var periodsPerYear = compoundingFrequency === 'monthly' ? 12 : (compoundingFrequency === 'quarterly' ? 4 : 1);
+var interestPerPeriod = annualInterestRate / (100 * periodsPerYear);
+var periods = months / periodsPerYear;
+
+var maturityValue = monthlyDeposit * (((Math.pow(1 + interestPerPeriod, periods) - 1) / interestPerPeriod) * (1 + interestPerPeriod));
+
+// Display result with commas
+document.getElementById('result-4').innerText = 'Maturity Value: ₹ ' + formatNumberWithCommas(maturityValue.toFixed(2));
+}
+
+
+// Function to clear fields based on calculator type
+function clearFields(calculatorType) {
+    switch (calculatorType) {
+        case 1:
+            // Clear Present Value Calculator fields
+            document.getElementById('interest-rate-3').value = '10';
+            document.getElementById('loan-period-3').value = '10';
+            document.getElementById('rest-option-3').value = 'monthly';
+            document.getElementById('future-amount').value = '0';
+            document.getElementById('result-3').innerText = '';
+            break;
+        case 2:
+            // Clear Fixed Deposit Calculator fields
+            document.getElementById('principal-amount').value = '100000';
+            document.getElementById('interest-rate-2').value = '10';
+            document.getElementById('compounding-option').value = 'monthly';
+            document.getElementById('loan-period-2').value = '12';
+            document.getElementById('result-2').innerText = '';
+            break;
+        case 3:
+            // Clear Future Value Calculator fields
+            document.getElementById('present-amount-future').value = '0';
+            document.getElementById('interest-rate-future').value = '10';
+            document.getElementById('loan-period-future').value = '10';
+            document.getElementById('rest-option-future').value = 'monthly';
+            document.getElementById('result-future').innerText = '';
+            break;
+        case 4:
+            // Clear Recurring Deposit Calculator fields
+            document.getElementById('monthly-deposit').value = '5000';
+            document.getElementById('annual-interest-rate').value = '8';
+            document.getElementById('compounding-frequency').value = 'monthly';
+            document.getElementById('period-months').value = '60';
+            document.getElementById('result-4').innerText = '';
+            break;
+        default:
+            console.log('Invalid calculator type.');
+            break;
+    }
+}
+</script>
+<style>
+    body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f8f9fa;
+}
+
+.calculator-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+max-width: 1200px;
+width: 90%;
+margin: 20px auto;
+}
+
+.calculator {
+width: 100%;
+max-width: 500px;
+padding: 20px;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+box-sizing: border-box;
+}
+
+h1 {
+text-align: center;
+margin-bottom: 20px;
+color: #333;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+
+.form-group label {
+display: block;
+margin-bottom: 5px;
+color: #555;
+}
+
+.form-group input,
+.form-group select {
+width: 100%;
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+button {
+width: 100%;
+padding: 12px;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+margin-top: 10px;
+}
+
+.btn-calculate {
+background-color: #1d4e9e;
+}
+
+.btn-clear {
+background-color: #fbc707;
+}
+
+.result {
+margin-top: 20px;
+padding: 15px;
+background-color: #f0f8ff;
+border: 1px solid #cce7ff;
+border-radius: 5px;
+text-align: center;
+font-size: 18px;
+color: #333;
+}
+
+@media (max-width: 600px) {
+.calculator {
+padding: 15px;
+}
+
+button {
+padding: 10px;
+font-size: 14px;
+}
+}
+</style>
+<!-- Calculators End  -->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>
+            Copyright © 2024 Deltateam.in, Ltd. All Rights Reserved.
+            <br>Design: <a href="https://deltateam.in/" target="_parent" title="free css templates">Deltateam.in</a>
+          </p>
+          <ul class="footer-links" style="color: white;">
+            <li><a href="policy.html" title="Privacy Policy">Privacy Policy</a></li>
+            <li><a href="terms.html" title="Terms and Services">Terms and Services</a></li>
+            <li><a href="/digital-marketing" title="Digital Marketing">Digital Marketing</a></li>
+            <li><a href="/whatsapp-crm" title="WhatsApp CRM">WhatsApp CRM</a></li>
+            <li><a href="https://deltateam.in/" title="Delta Team">Delta Team</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <style>
+    /* General footer styles */
+    footer {
+      padding: 20px 0;
+      background-color: #f8f9fa;
+      text-align: center;
+      color: white;
+    }
+  
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+      color:whitesmoke;
+      background-color: white;
+    }
+  
+    .footer-links li {
+      display: inline-block;
+      margin-right: 15px;
+    }
+  
+    .footer-links li:last-child {
+      margin-right: 0;
+    }
+  
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .footer-links li {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  
+  </style>
+  
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+</body>
+</html>
